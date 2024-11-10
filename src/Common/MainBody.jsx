@@ -1,8 +1,18 @@
 import React from 'react'
+import Header from './Header'
 
 const MainBody = () => {
   return (
-    <div>MainBody</div>
+    <>
+    <section>
+        <div id="header">
+            <Header/>
+        </div>
+        <div id="main">
+            sjjsjs
+        </div>
+    </section>
+    </>
   )
 }
 

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import TemplateBlue from './Templates/TemplateBlue';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,7 +23,7 @@ function App() {
   return (
     <>
       <section>
-        
+        <TemplateBlue/>
       </section>
     </>
   )
