@@ -4,12 +4,14 @@ import Sidebar from '../Common/Sidebar'
 import MainBody from '../Common/MainBody'
 import colorUI from "../Common/coolorUi.json"
 
-const TemplateBlue = ({color}) => {
+const TemplatePurple= ({color}) => {
+
+  console.log("find", colorUI[color].darkMainBackgroundColor)
   return (
     <>
       <section
-        id="templateBlue"
-        className={'flex'}
+        id="templatePurple"
+        className={`${colorUI[color].mainBackgroundColor} ${colorUI[color].darkMainBackgroundColor} flex`}
       >
         <div
           id="sidebar"
@@ -30,4 +32,4 @@ const TemplateBlue = ({color}) => {
   );
 }
 
-export default TemplateBlue
+export default TemplatePurple

@@ -18,13 +18,13 @@ const About = ({color}) => {
 
       <div className="flex w-full max-w-screen-xl mx-auto my-4 justify-center ">
 
-        <div className={`w-56 h-72 ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3 dark:bg-opacity-25`}></div>
-        <div className={`w-56 h-72 ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3 dark:bg-opacity-25`}></div>
-        <div className={`w-56 h-72 ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3 dark:bg-opacity-25`}></div>
-        <div className={`w-56 h-72 ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3 dark:bg-opacity-25`}></div>
+        <div className={`w-56 h-72 ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3`}></div>
+        <div className={`w-56 h-72 ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3`}></div>
+        <div className={`w-56 h-72 ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3`}></div>
+        <div className={`w-56 h-72 ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3`}></div>
       </div>
 
-      <div className={`aboutInfo  ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} bg-opacity-70 flex w-full max-w-screen-xl mx-auto justify-center my-10 py-20 align-middle items-center dark:bg-opacity-25`}>
+      <div className={`aboutInfo  ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} bg-opacity-70 flex w-full max-w-screen-xl mx-auto justify-center my-10 py-20 align-middle items-center`}>
           <div className="basis-[30%] ">
               <img src={about} alt="about us" className='w-screen'/>
           </div>
@@ -40,14 +40,14 @@ const About = ({color}) => {
 
 
       <div className="statistics flex w-full max-w-screen-xl mx-auto my-4 justify-center mb-60">
-        <div className={`w-24 h-24  ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3 dark:bg-opacity-25`}></div>
-        <div className={`w-24 h-24  ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3 dark:bg-opacity-25`}></div>
+        <div className={`w-24 h-24  ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3`}></div>
+        <div className={`w-24 h-24  ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3`}></div>
 
-        <div className={`w-24 h-24  ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3 dark:bg-opacity-25`}></div>
+        <div className={`w-24 h-24  ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3`}></div>
 
-        <div className={`w-24 h-24  ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3 dark:bg-opacity-25`}></div>
+        <div className={`w-24 h-24  ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3`}></div>
 
-        <div className={`w-24 h-24  ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3 dark:bg-opacity-25 `}></div>
+        <div className={`w-24 h-24  ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} rounded-md shadow-md m-3`}></div>
       </div>
     </section>
   );

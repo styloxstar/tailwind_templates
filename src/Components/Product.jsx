@@ -65,7 +65,7 @@ const Product = ({color}) => {
 
           {
             productElements.map((productData, i) =>(
-              <div key={i} className={`w-80 h-48 ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} ${colorUI[color].contentTextColor} ${colorUI[color].darkContentTextColor} rounded-md shadow-md mx-5 my-10 hover:translate-y-[-25px] transition-all ease-in-out delay-200 bg-opacity-80 dark:bg-opacity-25 dark:text-opacity-80`}>
+              <div key={i} className={`w-80 h-48 ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} ${colorUI[color].contentTextColor} ${colorUI[color].darkContentTextColor} rounded-md shadow-md mx-5 my-10 hover:translate-y-[-25px] transition-all ease-in-out delay-200 bg-opacity-80 dark:text-opacity-80`}>
                 <div id="header" className={`text-center p-2 border-b ${colorUI[color].borderColor} ${colorUI[color].darkBorderColor} border-opacity-70`}>
                     {productData.name}
                 </div>

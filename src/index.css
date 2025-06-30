@@ -68,6 +68,58 @@ button:focus-visible {
 } */
 
 
+:root {
+  /* --color-primary: #4f46e5; */
+  /* --spacing-base: 1rem; */
+
+  /* start here */
+  /* --blue-mainBackgroundColor: #E1E1E1;
+  --blue-textColor: #f9fafb;  
+  --blue-hoverTextColor: #1f2937; 
+  --blue-backgroundColor: #4265D0;
+  --blue-hoverBackgroundColor: #E1E1E1;
+  --blue-backgroundSecondaryColor: #4265D0;
+  --blue-hoverBackgroundSecondaryColor: #E1E1E1;
+  --blue-contentTextColor: text-gray-600; 
+  --blue-borderColor: #4265D0;
+  --blue-buttonColor:#18181b; 
+  --blue-buttonTextColor: #fff; */
+
+    --blue-primary-background-color: #0C1641;
+  --blue-primary-background-hover-color: #344272;
+  --blue-primary-text-color: #34E3F0; 
+  --blue-primary-hover-text-color: #1f2937;
+  --blue-secondary-background-color: #344272;
+  --blue-secondary-background-hover-color: #E1E1E1;
+  --blue-secondary-text-color: #34E3F0;
+  --blue-secondary-hover-text-color: #1f2937;
+
+}
+
+
+.dark{
+  /* --blue-textColor: #aa2467;
+  --blue-mainBackgroundColor: #0C1641;
+  --blue-textHoverColor: #1f2937;
+  --blue-backgroundColor: #344272;
+  --blue-hoverBackGroundColor: #E1E1E1;
+  --blue-backgroundSecondaryColor: #344272;
+  --blue-hoverBackgroundSecondaryColor: #E1E1E1;
+  --blue-contentTextColor:#34E3F0;
+  --blue-borderColor: #34E3F0;
+  --blue-buttonColor:#34E3F0;
+  --blue-buttonTextColor:#18181b */
+
+  --blue-primary-background-color: #0C1641;
+  --blue-primary-background-hover-color: #344272;
+  --blue-primary-text-color: #34E3F0; 
+  --blue-primary-hover-text-color: #1f2937;
+  --blue-secondary-background-color: #344272;
+  --blue-secondary-background-hover-color: #E1E1E1;
+  --blue-secondary-text-color: #34E3F0;
+  --blue-secondary-hover-text-color: #1f2937;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
