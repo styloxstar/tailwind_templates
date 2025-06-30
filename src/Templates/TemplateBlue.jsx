@@ -9,7 +9,7 @@ const TemplateBlue = ({color}) => {
     <>
       <section
         id="templateBlue"
-        className={'flex'}
+        className={`${colorUI[color].mainBackgroundColor} ${colorUI[color].darkMainBackgroundColor} flex`}
       >
         <div
           id="sidebar"

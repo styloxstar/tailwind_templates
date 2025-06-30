@@ -81,7 +81,7 @@ const Contact = ({color}) => {
           <img src={ContactImg} alt="contactUs"/>
         </div>
         <div className="basis-[60%]">
-          <div className={`contactForm max-w-screen-md h-[100%] w-full shadow-md rounded-lg ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} ${colorUI[color].contentTextColor} ${colorUI[color].darkContentTextColor} bg-opacity-80 my-10 p-10  dark:text-opacity-80`}>
+          <div className={`contactForm max-w-screen-md h-[100%] w-full shadow-md rounded-lg ${colorUI[color].backgroundSecondaryColor} ${colorUI[color].darkBackgroundSecondaryColor} ${colorUI[color].contentTextColor} ${colorUI[color].darkContentTextColor} bg-opacity-80 my-10 p-10 dark:bg-opacity-25 dark:text-opacity-80`}>
             <form
               className="max-w-lg mx-auto"
               ref={formRef}
